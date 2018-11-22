@@ -1,0 +1,22 @@
+﻿<Window x:Class="lab08.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab08"
+        mc:Ignorable="d"
+        Title="Window1" Height="172" Width="356">
+    <Grid>
+        <TextBox x:Name="textBoxName" HorizontalAlignment="Left" Height="23" Margin="178,10,0,0" TextWrapping="Wrap" Padding="2" Text="" VerticalAlignment="Top" Width="146"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="27,10,0,0" TextWrapping="Wrap" Text="Пункт призначення:" TextAlignment="Right" Padding="2" VerticalAlignment="Top" Width="146" Height="23"/>
+
+        <TextBox x:Name="textBoxNumber" HorizontalAlignment="Left" Height="23" Margin="178,38,0,0" TextWrapping="Wrap" Padding="2" Text="" VerticalAlignment="Top" Width="146"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="27,38,0,0" TextWrapping="Wrap" Text="Номер потяга:" TextAlignment="Right" Padding="2" VerticalAlignment="Top" Width="146" Height="23"/>
+
+        <TextBox x:Name="textBoxDate" HorizontalAlignment="Left" Height="23" Margin="178,66,0,0" TextWrapping="Wrap" Padding="2" Text="" VerticalAlignment="Top" Width="146"/>
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="27,66,0,0" TextWrapping="Wrap" Text="Час відправлення:" TextAlignment="Right" Padding="2" VerticalAlignment="Top" Width="146" Height="23"/>
+        <Button x:Name="buttonOk" Content="OK" IsDefault="True" HorizontalAlignment="Left" Margin="249,105,0,0" VerticalAlignment="Top" Width="75" Click="buttonOk_Click"/>
+        <Button x:Name="buttonCancel" IsCancel="True" Content="Отмена" HorizontalAlignment="Left" Margin="27,105,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
